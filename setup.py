@@ -28,10 +28,7 @@ setup(
     author_email='davidbyttow@google.com',
     license='Apache 2.0',
     url='http://code.google.com/p/opensocial-python-client',
-    packages=['opensocial', 'oauth', 'simplejson', 'Crypto', \
-              'Crypto.PublicKey', 'Crypto.Util'],
-    package_dir={'opensocial': 'src/opensocial',
-                 'oauth': 'src/opensocial/oauth',
-                 'simplejson': 'src/opensocial/simplejson',
-                 'Crypto': 'src/opensocial/Crypto',}
+    packages=['opensocial', 'opensocial.oauth', 'opensocial.simplejson', 'opensocial.Crypto', \
+              'opensocial.Crypto.PublicKey', 'opensocial.Crypto.Util'],
+    package_dir={'opensocial': 'src/opensocial'}
 )
